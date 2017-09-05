@@ -12,7 +12,7 @@
         <fullName>FL_Commit_to_Remote_Repository</fullName>
         <language>en_US</language>
         <protected>false</protected>
-        <shortDescription>Commit to Remote Repository</shortDescription>
+        <shortDescription>Updated</shortDescription>
         <value>Commit to Remote Repository</value>
     </labels>
     <labels>
@@ -26,7 +26,7 @@
         <fullName>FL_Push_to_Remote_Repository</fullName>
         <language>en_US</language>
         <protected>false</protected>
-        <shortDescription>Push to Remote Repository</shortDescription>
+        <shortDescription>Push to Remote Repository #2</shortDescription>
         <value>Push to Remote Repository</value>
     </labels>
     <labels>
