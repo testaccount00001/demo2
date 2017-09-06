@@ -1,29 +1,3 @@
-﻿1. It does not store the changes --   Added the caching service, which stores the edit-state for each component (including editor options)
-2-3. Renamed  the buttons
-4. The size of the browser is not good -- Corrected.
-5. Wrong view/New fields show wrong values --  Changed the UI for Xml panel, now xml file displayed as graphic tree.
-6. Added the checkbox to show only changed values/lines.
-7. Optimized the code, tuned AngularJs  to shorten loading time.
-
-NOTE: UI tested only for FF, Chrome, Opera/Windows. Need to test in Safari/MacOS
-
-По пп.1 и .4 ещё можно немного доработать,  - в кэширующий сервис я добавлю gzip, чтобы браузер меньше памяти ел, а для очень длинных строк можно сделать разбивку строк (word wrap)
-
-Oleg, the main thing is that I want to use the same editor as Local Flosum, can you make that switch? OR can you improve the identing of XML documents.
-+++
-What bugs are fixed in DM?
-+++++
-Can you look at this Jira Ticket DM-81 and let us know if DM can support it today?
-
-я внёс изменения, чтобы учесть предложения, обозначенные в видео, это можно считать  "improve the identing of XML documents" 
-На DE орге можно посмотреть
-
-Полный список изменений:
-1. It does not store the changes --   Added the caching service, which stores the edit-state for each component (including editor options)
-2-3. Renamed  the buttons
-4. The size of the browser is not good -- Corrected.
-5. Wrong view/New fields show wrong values --  Changed the UI for Xml panel, now xml file displayed as graphic tree.
-6. Added the checkbox to show only changed values/lines.
-7. Optimized the code, tuned AngularJs  to shorten loading time.
+CHANGED
 
 Исправленные  баги : DM-77,DM-78, DM-79
