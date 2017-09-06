@@ -1,0 +1,7 @@
+<aura:documentation>
+	<aura:description>Text</aura:description>
+	<aura:example name="ExampleName" ref="exampleComponentName" label="Label">
+                any text
+		</aura:example>
+
+</aura:documentation>
