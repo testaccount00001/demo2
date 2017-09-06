@@ -1,1 +1,1 @@
-For all components except Folder types
+For all components including Folder types
