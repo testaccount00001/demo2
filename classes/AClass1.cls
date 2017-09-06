@@ -11,5 +11,6 @@ public class AClass1 {
     Double f1 = 0.1;
     // updated
     Integer i19 = 1000;
+    //updated
     
 }
