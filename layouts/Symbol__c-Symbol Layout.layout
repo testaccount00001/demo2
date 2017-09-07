@@ -8,7 +8,7 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Name2</field>
+                <field>Name3</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
