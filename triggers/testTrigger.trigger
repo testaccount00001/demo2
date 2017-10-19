@@ -3,18 +3,19 @@ if (Trigger.isAfter) {
 
         if (Trigger.isUpdate) { 
 
-            Map<ID,ID> oppToContact = new Map<ID,ID>();
-            
-            
+            Map<ID,ID> oppToContact = new Map<ID,ID>(); 
             for (Lead ld : Trigger.new) {
                 if(ld.isConverted && trigger.oldMap.get(ld.id).isConverted) continue; //only process newly converted leads. 
-					// Find all converted Leads with Opportunitiy and add ConvertedOpportunityId to  setConvertedOppIds add test
-                 if (ld.ConvertedOpportunityId != null && ld.ConvertedContactId != null){                    
+
+                // Change a comment line again again again again again. Find all converted Leads with Opportunitiy and add ConvertedOpportunityId to setConvertedOppIds add test
+                if (ld.ConvertedOpportunityId != null && ld.ConvertedContactId != null){                    
                     oppToContact.put(ld.ConvertedOpportunityId,ld.ConvertedContactID);  
-	 				
+
                 }
 
-            }  
+            } 
+            
+            // add a new line #18
 
        if (!oppToContact.isEmpty()) {
 
@@ -27,6 +28,8 @@ if (Trigger.isAfter) {
                     }
 
                 }
+// add a line 1
+// add a line 2
 
         if (!lstOpp.isEmpty()) {
           Update lstOpp;
